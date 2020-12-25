@@ -1,0 +1,196 @@
+html {
+    font-size: 62.5%;
+    /* Reset para rems - 62.5% = 10px de 16px */
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.4rem;
+    margin: 0;
+    width: 21cm;
+    height: 29.7cm;
+    font-family: Arial, sans-serif;
+}
+
+
+/**Globales**/
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+
+/**Header**/
+
+.site-header {
+    background-color: #EEF808;
+    padding: .1rem 0;
+    border: .2rem solid #F30C0C;
+}
+
+.site-header h1 {
+    text-align: center;
+    color: #F30C0C;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.site-header h1 span {
+    color: #0F3BE7;
+    font-weight: bold;
+}
+
+
+/**Contenido Principal**/
+
+.contenido-principal {
+    display: block;
+}
+
+.nombre {
+    background-color: #EEF808;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.nombre p {
+    margin: 0;
+}
+
+.mainbar {
+    width: 65%;
+    float: left;
+}
+
+.entrada {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.entrada .imagen {
+    float: left;
+    width: 50%;
+}
+
+.entrada .datos {
+    float: left;
+    width: 50%;
+    font-size: .7rem;
+    margin: 0;
+    margin-left: 1rem;
+    text-align: justify;
+}
+
+.descripcion {
+    font-size: .7rem;
+}
+
+.lugar-fecha {
+    margin-top: 2rem;
+}
+
+.lugar-fecha p {
+    text-align: center;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contacto-main {
+    font-size: .6rem;
+    margin: 1rem 0;
+    border: .1rem solid #F30C0C;
+    background-color: #EEF808;
+    color: #0F3BE7;
+}
+
+.contacto-main h2 {
+    text-align: center;
+}
+
+.contacto-main p {
+    margin: .3rem 0;
+}
+
+.asidebar {
+    width: 35%;
+    float: left;
+}
+
+.asidebar ul {
+    list-style: none;
+}
+
+.asidebar ul li {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.fecha {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F30C0C;
+    margin: 0;
+}
+
+.antigua {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #103BF3;
+    margin: 0;
+}
+
+.lugar {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0F3BE7;
+    margin: 0;
+}
+
+.difucion {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contacto {
+    font-weight: bold;
+    font-size: .6rem;
+    margin: 0;
+}
+
+
+/**Footer**/
+
+.site-footer {
+    display: block;
+    background-color: #EEF808;
+    padding: 1rem;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+.site-footer .footer-left {
+    text-align: center;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.site-footer .footer-right {
+    float: right;
+    font-size: .5rem;
+}
