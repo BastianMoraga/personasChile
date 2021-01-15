@@ -1,0 +1,2 @@
+esta carpeta debe ser eliminada luego
+ de subir la query personaschile.sql
